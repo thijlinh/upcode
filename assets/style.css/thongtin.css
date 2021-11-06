@@ -1,0 +1,36 @@
+.inforpage-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: row;
+}
+
+ol {
+    padding: 0px;
+}
+
+li {
+    margin: 0px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right {
+    flex: 1;
+}
+
+.infor-page {
+    margin: 30px;
+}
+
+.fa-home {
+    position: relative;
+    left: 0px;
+}

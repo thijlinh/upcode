@@ -1,0 +1,65 @@
+/* hearder top */
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.header-fa {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 12px;
+    color: brown;
+    position: absolute;
+    right: 0px;
+}
+
+.fa-search {
+    right: 110px;
+}
+
+.fa-shopping-bag {
+    right: 50px;
+}
+
+.header-img {
+    display: block;
+    position: relative;
+}
+
+hr {
+    background-color: brown;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+
+/* negative */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 10px 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    margin: 0px 50px;
+    font-weight: bold;
+}
+
+.header-banner {
+    padding-top: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

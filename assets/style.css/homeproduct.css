@@ -1,0 +1,96 @@
+    h1 {
+        text-align: center;
+        color: brown;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+        justify-content: space-around;
+    }
+    
+    .col {
+        margin: 0px 40px 15px;
+    }
+    
+    .home-product-item,
+    .home-blog-item {
+        display: block;
+        text-decoration: none;
+        position: relative;
+        width: 250px;
+        margin-top: 10px;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+    .home-blog-item {
+        width: 350px;
+    }
+    
+    .home-product-item__img,
+    .home-blog-item__img {
+        padding-top: 100%;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: contain;
+    }
+    
+    .home-product-item__name,
+    .home-blog-item__name {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 30px;
+        height: 30px;
+        text-align: center;
+        overflow: hidden;
+        display: block;
+        color: brown;
+    }
+    
+    .home-blog-item__name {
+        padding: 10px 0px;
+    }
+    
+    .home-blog-item__img {
+        padding-top: 100%;
+        background-size: cover;
+    }
+    
+    .home-product-item__price {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .home-product-item__price-old {
+        color: #666;
+        font-size: 20px;
+        margin-left: 10px;
+        text-decoration: line-through;
+    }
+    
+    .home-product-item__price-current {
+        color: rgb(14, 13, 13);
+        font-weight: 500;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+    
+    .one-price {
+        position: relative;
+        margin: 5px 57px;
+    }
+    
+    .home-product-item__favorite {
+        text-align: center;
+        top: 10px;
+        font-size: 22px;
+        color: rgba(173, 12, 12, 0.774);
+    }

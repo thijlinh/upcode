@@ -1,0 +1,46 @@
+    .footer-content {
+        background-color: #624734;
+        color: white;
+    }
+    
+    h2 {
+        margin-top: 0px;
+    }
+    
+    .fa {
+        padding: 20px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 12px;
+        border-radius: 8px;
+    }
+    
+    .fa-facebook,
+    .fa-instagram,
+    .fa-address-book,
+    .fa-phone,
+    .fa-laptop {
+        background: burlywood;
+        color: white;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0px;
+        justify-content: space-around;
+    }
+    
+    .footer-item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 12px;
+    }
+    
+    .footer-aboutus {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
